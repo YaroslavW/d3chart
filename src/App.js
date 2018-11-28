@@ -4,15 +4,16 @@ import './App.css';
 
 class App extends Component {
   constructor(){
-    super()
+    super();
     this.state = {
-      data: [100, 400, 232, 280, 630, 120, 78, 262, 380, 30]
+      data:[ 233, 120, 78, 100, 400, 232, 200, 233, 120, 78]
     }
   }
+
   render() {
     return (
       <div className="App">
-        <BarChart data={this.state.date} />
+        <BarChart data={this.state.data} />
       </div>
     );
   }
