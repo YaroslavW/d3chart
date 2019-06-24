@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { Component } from 'react';
 import * as d3 from "d3";
 import ReactFauxDOM from 'react-faux-dom';

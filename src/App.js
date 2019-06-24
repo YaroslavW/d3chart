@@ -13,7 +13,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>Simple D3-react-application</h1>
         <BarChart data={this.state.data} />
+        <h3>Hover over the chart to see the exact value.</h3>
       </div>
     );
   }
